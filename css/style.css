@@ -1,7 +1,31 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 html {
     scroll-behavior: smooth;
+}
+
+button {
+    border: 1px solid;
+    cursor: poiner;
+    transition: 0.3s ease-in-out;
+}
+
+.form-button button:hover {
+    background-color: rgb(80, 75, 75);
+    color: white;
+}
+/* Footer */
+footer {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    color:#666
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
 }
